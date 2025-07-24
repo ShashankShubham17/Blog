@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Georgia', serif;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+}
