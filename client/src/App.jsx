@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import LandingPage from "./componets/landingpage/landingpage";
-import SignUp from "./componets/SignUp/SignUp";
+import LandingPage from "./componets/landingpage/landingpage.jsx";
+import SignUp from "./componets/SignUp/SignUp.jsx";
 import Login from "./componets/Login/Login.jsx";
 import MediumHomePage from "./componets/mediumsignup/mediumhomepage.jsx";
-import Mediumsignup from "./componets/mediumsignup/mediumsingup";
-import Ourstory from "./componets/ourstory/ourstory";
+import Mediumsignup from "./componets/mediumsignup/mediumsingup.jsx";
+import Ourstory from "./componets/Ourstory/Ourstory.jsx";
 import Membership from "./componets/Membership/Membership.jsx";
 import Write from "./componets/Write/write.jsx";
-import Navbar from "./componets/Navbar/Navbar"; // ✅ Update this path based on your file structure
+import Navbar from "./componets/Navbar/Navbar.jsx"; // ✅ Update this path based on your file structure
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
